@@ -18,9 +18,9 @@ public class binarySearch {
         return -1;
     }
     public static void main (String[] args) {
-        int array[] = {8, 5, 9, 6, 2, 4, 1};
+        int array[] = {1,2,3,4,5,6,7,8,9,10};
         int key = 6;
 
-        System.out.println("index for key is : " + binarySearching(array));
+        System.out.println("index for key is : " +binarySearching(array, key));
     }
 }

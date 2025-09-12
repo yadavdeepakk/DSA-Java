@@ -2,7 +2,7 @@ public class PrintDecNums {
 
     public static void printNum (int num) {
         if (num == 1) {
-            System.out.println(1);
+            System.out.println(num);
             return;
         }
         System.out.println(num);

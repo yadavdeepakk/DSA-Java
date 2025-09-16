@@ -6,13 +6,12 @@ public class TilingProblem {
             return 1;
         }
 
-        int fnm1 = placeTiles(n -1);
+        int fnm1 = placeTiles(n - 1);
         int fnm2 = placeTiles(n - 2);
         int total = fnm1 + fnm2;
         return  total;
     }
     public static void main (String args []) {
-
-        System.out.println(placeTiles(3));
+        System.out.println(placeTiles(4));
     }
 }

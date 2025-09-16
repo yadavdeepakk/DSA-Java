@@ -2,7 +2,7 @@ public class PrintFibonacciSeries {
 
     public static int fnSr (int num) {
         if (num == 0 || num == 1) {
-            return 1;
+            return num;
         }
 
         int fnm1 = fnSr(num - 1);
@@ -12,7 +12,7 @@ public class PrintFibonacciSeries {
     }
 
     public static void main (String agrs []) {
-        int num = 25;
+        int num = 5;
         System.out.println(fnSr(num));
     }
 

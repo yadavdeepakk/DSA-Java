@@ -11,10 +11,8 @@ public class TilingProblem {
         int total = fnm1 + fnm2;
         return  total;
     }
-
     public static void main (String args []) {
 
         System.out.println(placeTiles(3));
     }
-    
 }

@@ -5,9 +5,6 @@ public class SumOfNums {
         if (num == 1) {
             return 1;
         }
-
-        
-
         int fnm1 = SumOfNaturalNums(num - 1);
         int fn = SumOfNaturalNums(num - 1) + num;
         return fn;

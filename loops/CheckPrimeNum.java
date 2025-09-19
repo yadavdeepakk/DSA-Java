@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class CheckPrimeNum {
-
     public static void main(String args[]) {
 
         Scanner scn = new Scanner(System.in);

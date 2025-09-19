@@ -19,7 +19,6 @@ public class PrimeInRange {
                 }
             }
         }
-
         if (isPrime) {
             System.out.println("Entered Number is a Prime Number");
         } else {

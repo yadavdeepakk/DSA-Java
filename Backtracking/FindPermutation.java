@@ -12,7 +12,6 @@ public class FindPermutation {
             FindingPermutation(NewStr, ans + curr);
         }
     }
-
     public static void main (String args []) {
         String str = "abc";
         FindingPermutation(str,"");

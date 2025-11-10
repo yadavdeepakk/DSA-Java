@@ -56,8 +56,22 @@ public class basicOperations {
             max = Math.max(max, list.get(i));
         }
         System.out.println("the maximum value in ArrayList is : " + max);
-    }
 
+        // multi-dimensional ArrayList
+        ArrayList<ArrayList<Integer>> mainList = new ArrayList<>();
+        ArrayList<Integer> lists = new ArrayList<>();
+        lists.add(1); lists.add(2);
+        mainList.add(lists);
+
+        ArrayList<Integer> lists2 = new ArrayList<>();
+        lists2.add(3); lists2.add(4);
+        mainList.add(lists2);
+
+        System.out.println(lists);
+        System.out.println(lists2);
+
+
+    }
 }
 
  

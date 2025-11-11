@@ -7,14 +7,12 @@ public class sudoku {
                 return false;
             }
         }
-
         // row
         for(int j =0; j<=8; j++) {
             if(sudoku[row][j] == digit) {
                 return false;
             }
         }
-
         // grid
         int sr = (row/3) * 3;
         int sc = (col/3) * 3;
